@@ -1,0 +1,138 @@
+/* html { 
+    background: url(p2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+/* .container {
+  position: absolute;
+  max-width: 900px;
+  height: 540px;
+  opacity: 0.95;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  font-style: poppins;
+  transform: translate(-50%, -50%);
+} */
+/* .myCard{
+  position: relative;
+  top: 150px;
+} */
+
+body{
+  background-color: #fcedcb;
+}
+
+
+/* ...........nav........... */
+
+/* .container-fluid{
+  background-color: rgb(255, 119, 119);
+  
+}
+.container-fluid a:link,a:visited{
+  background-color: rgb(255, 119, 119);
+  color: rgb(255, 255, 255);
+}
+.container-fluid a:hover,a:active{
+  box-shadow: 0px 10px 40px -10px rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.navbar-brand{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-link{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nav-link:hover{
+  box-shadow: 0px 10px 40px -10px rgb(255, 255, 255);
+  opacity: 0.8;
+  color: #ffff;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.clgname{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-style: Bold;
+}
+.notice_cart{
+  position: relative;
+  width: 250px;
+  background-color: #ffff;
+  
+}
+.index_mid{
+  position: relative;
+  width: 500px;
+  top: 20px;
+  left: -50px;
+}
+.carousel-item{
+  position: relative;
+  height: 350px;
+  width: 650px;
+}
+/*me*/
+.carousel-caption{
+  text-align: center;
+  left: -50px;
+}
+/*me*/
+.{
+  background-color: #ffff;
+}
+.faculties_cart{
+  position: relative;
+  width: 200px;
+  top: 20px;
+  margin-left: auto;
+  background-color: #FFFFDD;
+}
+.facul_link{
+  color: rgb(255, 119, 119);
+  background: #ffff;
+  
+}
+#blueblock1 {
+    width: 250px;
+    border: 1px solid #990000;
+    padding: 0 0 0 0;
+    margin-bottom: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+    text-align: left;
+    font-size: 100%;
+    height: 313px;
+}
+#blueblock1 li {
+  border-bottom: 1px solid #990000;
+  margin: 0;
+}
+#blueblock1 li a {
+  display: block;
+  padding: 5px 8px 5px 5px;
+  background-color: #FFFFDD;
+  color: #990000;
+  text-decoration: none;
+  width: 100%;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-color: #FFFFDD;
+  border-left-color: #FFFFD2;
+}
+.iwimage{
+  display: block; margin-left: auto; margin-right: auto;
+  min-height: 100px; max-width: 100px; align-items: center;
+}
