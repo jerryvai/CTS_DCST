@@ -1,103 +1,40 @@
-/* html { 
-    background: url(p2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
-/* .container {
-  position: absolute;
-  max-width: 900px;
-  height: 540px;
-  opacity: 0.95;
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  right: 50%;
-  font-style: poppins;
-  transform: translate(-50%, -50%);
-} */
-/* .myCard{
-  position: relative;
-  top: 150px;
-} */
-
 body{
   background-color: #fcedcb;
-}
-
-
-/* ...........nav........... */
-
-/* .container-fluid{
-  background-color: rgb(255, 119, 119);
-  
-}
-.container-fluid a:link,a:visited{
-  background-color: rgb(255, 119, 119);
-  color: rgb(255, 255, 255);
-}
-.container-fluid a:hover,a:active{
-  box-shadow: 0px 10px 40px -10px rgb(255, 255, 255);
-  opacity: 0.8;
-}
-.navbar-brand{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.nav-link{
-  font-size: 17px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-.nav-link:hover{
-  box-shadow: 0px 10px 40px -10px rgb(255, 255, 255);
-  opacity: 0.8;
-  color: #ffff;
-} */
-
-*{
-  margin: 0;
-  padding: 0;
 }
 .clgname{
   color: rgb(0, 0, 0);
   font-size: 30px;
   font-style: Bold;
 }
-.notice_cart{
-  position: relative;
-  width: 250px;
-  background-color: #ffff;
-  
+.row{
+  margin: 0;
 }
-.index_mid{
-  position: relative;
-  width: 500px;
-  top: 20px;
-  left: -50px;
+.notice_cart{
+  margin: 16px auto 2px auto;
+  width: 250px;
+}
+.table_bg{
+  background-color: #ffff;
+  /* height: 300px; */
+}
+.pictures{
+  margin: auto;
 }
 .carousel-item{
-  position: relative;
-  height: 350px;
-  width: 650px;
+  height: 300px;
 }
-/*me*/
 .carousel-caption{
   text-align: center;
-  left: -50px;
 }
-/*me*/
 .{
   background-color: #ffff;
 }
 .faculties_cart{
-  position: relative;
-  width: 200px;
-  top: 20px;
   margin-left: auto;
-  background-color: #FFFFDD;
+  margin-right: auto;
+}
+.fac_mid{
+  margin: auto;
 }
 .facul_link{
   color: rgb(255, 119, 119);
@@ -105,22 +42,21 @@ body{
   
 }
 #blueblock1 {
-    width: 250px;
-    border: 1px solid #990000;
-    padding: 0 0 0 0;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em;
+    margin-top: 1em; */
+    margin: 30px auto auto auto;
     font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
     text-align: left;
     font-size: 100%;
     height: 313px;
 }
 #blueblock1 li {
-  border-bottom: 1px solid #990000;
+  border: 1px solid #990000;
   margin: 0;
 }
 #blueblock1 li a {
   display: block;
-  padding: 5px 8px 5px 5px;
+  padding: 3px 8px 3px 5px;
   background-color: #FFFFDD;
   color: #990000;
   text-decoration: none;
@@ -132,7 +68,55 @@ body{
   border-right-color: #FFFFDD;
   border-left-color: #FFFFD2;
 }
+.council{
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+}
 .iwimage{
   display: block; margin-left: auto; margin-right: auto;
   min-height: 100px; max-width: 100px; align-items: center;
+}
+.mygmap{
+  height: 200px;
+}
+.gmapinfo{
+  padding-left: 10px;
+  padding-top: 50px;
+}
+@media(max-width:767.98px) {
+  .gmapinfo{
+    padding-top: 0;
+  }
+  .faculties_cart{
+    padding-left: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-item{
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .notice_cart{
+    padding: 0px 0px 0px 16px;
+  }
+  .table_bg{
+    height: 327px;
+  }
+  .faculties_cart{
+    padding-left: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .pictures{
+    padding-top: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .notice_cart{
+    padding-top: 16px;
+    width: 90%;
+    margin: auto;
+  }
 }
