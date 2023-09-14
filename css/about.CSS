@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.su_image{
+    width: 100%;
+    padding: 0px 20px;
+}
 .bgi img{
     width: 100%;
     display: block;
@@ -12,6 +16,9 @@
 .content{
     display: flex;
     justify-content: space-between;
+}
+.adpadding{
+    padding: 2px;
 }
 
 .con1{
@@ -91,6 +98,13 @@
     padding: 20px;
     margin: 20px;
 }
+.pic{
+    padding: 20px;
+}
+.picofcts{
+    padding: 10px;
+
+}
 .principal-img{
     display: flex;
     align-items: center;
@@ -107,8 +121,9 @@
 .gallery-img{
     padding: 5px;
     margin: 0px;
-    height: 200px;
-    width: 260px;
+    /* height: 200px; */
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 .imag{
    display: flex;
