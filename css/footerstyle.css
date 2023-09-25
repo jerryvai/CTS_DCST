@@ -116,6 +116,8 @@
 }
 
 .copyright {
+    display: flex;
+    justify-content: center;
     border-top: 1px solid #111;
     font-size: 14px;
     color: #ccc;
@@ -192,6 +194,17 @@ footer dl, ol, ul {
   footer li{
     list-style: none;
   }
+
+.our_details {
+    border-radius: 15px;
+    padding: 0px 6px 0px;
+    font-size: 10px;
+    margin: 3px 0px 3px 10px;
+    background-color: #3d3636;
+}
+#copy{
+    text-decoration: none;
+}
 
 @media(max-width:768px){
     .footer-wrap h3 {
